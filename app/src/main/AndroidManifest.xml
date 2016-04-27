@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.priyanga.quizapplication" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Levels"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Level11"
+            android:label="@string/title_activity_level11" >
+        </activity>
+        <activity
+            android:name=".Level12"
+            android:label="Level12" />
+        <activity
+            android:name=".Level13"
+            android:label="@string/title_activity_level13" >
+        </activity>
+        <activity
+            android:name=".Level14"
+            android:label="@string/title_activity_level14" >
+        </activity>
+        <activity
+            android:name=".Level21"
+            android:label="@string/title_activity_level21" >
+        </activity>
+        <activity
+            android:name=".Level22"
+            android:label="@string/title_activity_level22" >
+        </activity>
+        <activity
+            android:name=".Level23"
+            android:label="@string/title_activity_level23" >
+        </activity>
+        <activity
+            android:name=".Level24"
+            android:label="@string/title_activity_level24" >
+        </activity>
+        <activity
+            android:name=".Level31"
+            android:label="@string/title_activity_level31" >
+        </activity>
+        <activity
+            android:name=".Level32"
+            android:label="@string/title_activity_level32" >
+        </activity>
+        <activity
+            android:name=".Level33"
+            android:label="@string/title_activity_level33" >
+        </activity>
+        <activity
+            android:name=".Level34"
+            android:label="@string/title_activity_level34" >
+        </activity>
+        <activity
+            android:name=".Level41"
+            android:label="@string/title_activity_level41" >
+        </activity>
+        <activity
+            android:name=".Level42"
+            android:label="@string/title_activity_level42" >
+        </activity>
+        <activity
+            android:name=".Level43"
+            android:label="@string/title_activity_level43" >
+        </activity>
+        <activity
+            android:name=".Level44"
+            android:label="@string/title_activity_level44" >
+        </activity>
+        <activity
+            android:name=".Last"
+            android:label="@string/title_activity_last" >
+        </activity>
+    </application>
+
+</manifest>
